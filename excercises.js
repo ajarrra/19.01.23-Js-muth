@@ -48,12 +48,21 @@ else{
 
 let login = "ElonMusk";
 let password = "I am the best";
-if (login === "ElonMusk" && password === "I m the best"){//или && , 
+if (login === "ElonMusk" && password === "I m the best"){//и && , || или
     console.log("correct");
 }
 else{
     console.log("Incorrect");
 }
+ // в автобусе 20 мест(place) , поместится ли группа из 23 туристов (tourist) в автобусе (bus)
+ let place = 20;
+ let tourist = 23;
+ if (place >= tourist){
+    console.log(поместятся);
+ }
+ else {
+    console.log("не поместятся");
+ }
 
 
 
