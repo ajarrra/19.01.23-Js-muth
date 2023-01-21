@@ -76,8 +76,24 @@ let sheep = 12;
 let farm = (cow * 4 ) + (sheep * 4) + (chiken * 2);
 console.log("всего ног " + farm);
 
+// Обогреватель расходует 2.4 кв/ч. (expenditure) Сколько нужно заплатить РЭС,(pay)  
+//учитывая то что обогреватель работал 46 часов (hourss ), а тариф (rate) электро-энергии 2.44 сом за кв/ч.
+let expenditure = 2.4;
+let hourss = 46;
+let rate = 2.44;
+let pay = (expenditure * hourss) * 2.44;
+console.log ("нужно заплатить " + pay);
 
+// Сколько нужно оплатить (totall) за отправку посылки размером 23 см высота (heightt),
+// 33 см ширина (widthh), 50 см длина,(length) и весом 12 кг (weightt). При тарифе (ratee) 499 сом за кг объемного веса. 
 
+let heightt = 23;
+let widthh = 33;
+let length = 50;
+let weightt = 12;
+let ratee = 499;
+let totall = weightt * ratee ;
+console.log ("нужно оплатить " + totall); 
 
 
 
