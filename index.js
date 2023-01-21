@@ -81,7 +81,7 @@ console.log("всего ног " + farm);
 let expenditure = 2.4;
 let hourss = 46;
 let rate = 2.44;
-let pay = (expenditure * hourss) * 2.44;
+let pay = (expenditure * hourss) * rate;
 console.log ("нужно заплатить " + pay);
 
 // Сколько нужно оплатить (totall) за отправку посылки размером 23 см высота (heightt),
@@ -92,7 +92,7 @@ let widthh = 33;
 let length = 50;
 let weightt = 12;
 let ratee = 499;
-let totall = weightt * ratee ;
+let totall = (heightt * widthh * length ) / 5000 + weightt * ratee ;
 console.log ("нужно оплатить " + totall); 
 
 
